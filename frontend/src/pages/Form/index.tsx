@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 function Form() {
@@ -40,7 +41,9 @@ function Form() {
             </button>
           </div>
         </form>
-        <button className="dsmovie-btn mt-3">Cancelar</button>
+        <Link to="/">
+          <button className="dsmovie-btn mt-3">Cancelar</button>
+        </Link>
       </div>
     </div>
   );
