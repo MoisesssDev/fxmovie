@@ -49,9 +49,9 @@
 }
 
 .dsmovie-btn {
-  font-family: var(--font-padrao);
+  font-family: var(--font-especial);
   background-color: var(--color-button);
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   height: 40px;
   width: 160px;
@@ -65,6 +65,7 @@
 }
 
 .dsmovie-btn:hover {
-  scale: 1.06;
+  scale: 1.04;
+  background-color: var(--color-blue);
   color: #fff;
 }
