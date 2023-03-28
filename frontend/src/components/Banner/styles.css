@@ -9,6 +9,13 @@ header h2 {
   font-family: var(--font-padrao);
   font-size: 36px;
   text-align: center;
+  transition: all 0.7s;
+}
+
+header h2:hover {
+  color: black;
+  background-color: #ffffff;
+  transform: scale(0.8);
 }
 
 .container-header {
@@ -38,12 +45,14 @@ header h2 {
 
 .container-blue .carousel-inner img {
   width: 370px;
-  margin-top: 20rem;
+  margin-top: 13rem;
   margin-left: 4.75rem;
-  margin-bottom: 8.6rem;
+  margin-bottom: 15.6rem;
 }
 
 .container-blue {
+  display: flex;
+  justify-content: center;
   width: 49.5%;
   margin-right: 0.5%;
   background-color: var(--color-blue);
@@ -57,10 +66,16 @@ header h2 {
 }
 
 .container-pink section {
-  font-size: 48px;
-  margin-top: 13rem;
-  margin-left: 34px;
-  width: 19.3rem;
+  font-size: 58px;
+  margin-top: 10rem;
+  margin-left: 9rem;
+  width: 21.3rem;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
 }
 
 .container-pink a {
@@ -87,12 +102,12 @@ header h2 {
   scale: 1.1;
 }
 
-.container-pink p {
+/* .container-pink p {
   font-family: var(--font-especial);
   position: absolute;
   top: 54.5rem;
   margin-left: 34px;
-}
+} */
 
 @media (max-width: 1360px) {
   * {
@@ -110,16 +125,13 @@ header h2 {
   }
 
   .container-pink section {
+    margin-left: 0;
     width: 22.3rem;
   }
 
   .container-pink a {
     top: 56.3rem;
     right: 10rem;
-  }
-
-  .container-pink p {
-    display: none;
   }
 
   .container-blue,

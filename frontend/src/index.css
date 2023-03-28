@@ -1,25 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 :root {
-  --color-blue: #385EFC;
-  --color-pink: #FCA2D5;
-  --color-button: #AC5252;
-  --font-especial: 'Permanent Marker', cursive;
-  --font-padrao: 'Rubik Mono One', sans-serif;
-  --font-padrao2: 'Staatliches', cursive;
+  --color-blue: #385efc;
+  --color-pink: #fca2d5;
+  --color-red: #b6210dc9;
+  --color-button: #d8ad14;
+  --font-especial: "Permanent Marker", cursive;
+  --font-padrao: "Rubik Mono One", sans-serif;
+  --font-padrao2: "Staatliches", cursive;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    background-color: #E5E5E5;
+html,
+body {
+  background-color: #e5e5e5;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
   color: unset;
 }

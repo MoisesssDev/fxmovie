@@ -1,10 +1,67 @@
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(-45px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(-24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(-12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(-6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(-4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.background-red {
+  margin: 0;
+  background-color: var(--color-blue);
+  min-height: 1020px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .dsmovie-form-container {
   font-family: var(--font-padrao2);
   max-width: 480px;
-  margin: 40px auto;
-  padding: 20px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
-  border-radius: 15px;
+  margin: 0 auto;
+  -webkit-box-shadow: 13px 14px 0px 5px #000000;
+  box-shadow: 13px 14px 0px 5px #000000;
+  /* padding: 20px; */
+  border: solid 3px black;
+  animation: myAnim 2s cubic-bezier(0.11, 0, 0.5, 0) 0s 1 normal forwards;
 }
 
 .dsmovie-form {
@@ -27,7 +84,8 @@
 
 .dsmovie-movie-card-image {
   width: 100%;
-  border-radius: 8px 8px 0 0;
+  /* border-radius: 8px 8px 0 0; */
+  border-bottom: solid 3px black;
 }
 
 .dsmovie-card-bottom-container {
@@ -36,7 +94,7 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 10px 20px 10px;
-  border-radius: 0 0 8px 8px;
+  /* border-radius: 0 0 8px 8px; */
 }
 
 .dsmovie-card-bottom-container h3 {
@@ -60,7 +118,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 5px 7px 0px 2px #000000;
+  box-shadow: 5px 7px 0px 1px #000000;
   transition: all 0.5s;
 }
 

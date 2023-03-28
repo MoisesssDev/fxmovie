@@ -27,7 +27,7 @@ function Header() {
             </div>
           </div>
 
-          <a href="#">ver avaliações</a>
+          {/* <a href="#">ver avaliações</a> */}
         </div>
         <div className="container-pink">
           <section className="title">
@@ -35,15 +35,15 @@ function Header() {
             nosso site de avaliação de filmes e séries.
           </section>
 
-          <a href="#">
+          {/* <a href="#">
             Criar conta <img src={iconSeta} alt="" />
-          </a>
+          </a> */}
 
-          <p>
+          {/* <p>
             Não sabe o que assistir? Nosso site de avaliação de filmes e séries
             tem as melhores recomendações dos espectadores como você. Encontre
             seu próximo vício de streaming agora mesmo!
-          </p>
+          </p> */}
         </div>
       </div>
 

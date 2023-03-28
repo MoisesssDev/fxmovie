@@ -1,0 +1,35 @@
+.catalog {
+  display: flex;
+  background-color: #ffc900;
+}
+
+.fxmovie-catalog-text {
+  margin: 125px 0 0 47px;
+}
+
+.fxmovie-catalog-text p {
+  font-family: var(--font-padrao);
+  color: #365196;
+  width: 262px;
+  font-size: 24px;
+}
+
+.fxmovie-catalog-container {
+  background-color: #fcf5e7;
+  border-radius: 51px;
+  -webkit-box-shadow: 13px 14px 0px 5px #000000;
+  box-shadow: 13px 14px 0px 5px #000000;
+  width: 70%;
+  margin: 12.5rem 5rem;
+}
+@media (max-width: 860px) {
+  .catalog {
+    flex-direction: column;
+  }
+
+  .fxmovie-catalog-container {
+    margin: 12.5rem 0 0 0;
+    width: 90%;
+    margin: 12.5rem auto;
+  }
+}
