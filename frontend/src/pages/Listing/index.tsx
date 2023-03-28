@@ -1,5 +1,13 @@
+import Header from "components/Header";
+import Pagination from "components/Pagination";
+
 function Listing() {
-  return <h1>Página listagem</h1>;
+  return (
+    <>
+      <Header />
+      <Pagination />
+    </>
+  );
 }
 
 export default Listing;
