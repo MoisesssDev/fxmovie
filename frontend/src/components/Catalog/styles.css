@@ -30,6 +30,6 @@
   .fxmovie-catalog-container {
     margin: 12.5rem 0 0 0;
     width: 90%;
-    margin: 12.5rem auto;
+    /* margin: 12.5rem auto; */
   }
 }

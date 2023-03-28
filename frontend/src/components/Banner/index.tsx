@@ -1,5 +1,4 @@
 import topGunImage from "assets/img/top-gun.png";
-import iconSeta from "assets/img/icons8-divisa-circulada-à-direita-64.png";
 import "./styles.css";
 
 function Header() {

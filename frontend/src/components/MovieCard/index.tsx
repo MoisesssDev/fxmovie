@@ -1,5 +1,6 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import "./styles.css";
 
 function MovieCard() {
   const movie = {
@@ -12,7 +13,7 @@ function MovieCard() {
   };
 
   return (
-    <div>
+    <div className="dsmovie-movie-card-container">
       <img
         className="dsmovie-movie-card-image"
         src={movie.image}

@@ -55,6 +55,7 @@
 
 .dsmovie-form-container {
   font-family: var(--font-padrao2);
+  border-radius: 31px 31px 20px 20px;
   max-width: 480px;
   margin: 0 auto;
   -webkit-box-shadow: 13px 14px 0px 5px #000000;
@@ -84,11 +85,13 @@
 
 .dsmovie-movie-card-image {
   width: 100%;
-  /* border-radius: 8px 8px 0 0; */
+  border-radius: 27px 27px 0 0;
   border-bottom: solid 3px black;
 }
 
 .dsmovie-card-bottom-container {
+  font-family: var(--font-padrao2);
+  border-radius: 0px 0px 20px 20px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
